@@ -17,7 +17,7 @@
     function getDataFromService(){
       dataService.getData()
         .then(function(response){
-          vm.dataObject = response;
+          vm.dataObject = response.data;
         });
     }
   }
